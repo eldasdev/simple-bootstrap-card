@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Sansita Swashed',
+  cursive;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.card {
+  width: 400px;
+  height: 700px;
+  margin: 20px;
+  display: block;
+  border-radius: 20px;
+  background: #dbdbbd;
+}
+
+.card-header {
+  background: no-repeat;
+  padding-top: 15px;
+  padding-right: auto;
+  padding-left: 25px;
+  margin-bottom: 10px;
+}
+
+.card-header img {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.card-body {
+  position: relative;
+  display: block;
+  background: #7dc29c;
+}
+
+.card-title {
+  display: block;
+  padding: 15px;
+  font-style: italic;
+  background: #;
+  color: rgb(56, 52, 52);
+}
+
+.card-subtitle {
+  display: block;
+  padding-top: 5px;
+  padding: 15px;
+  font-size: 20px;
+  font-style: italic;
+  background: #fff;
+  color: rgb(56, 52, 52);
+}
+
+.card-body p {
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 5px;
+  margin: 15px;
+  padding-bottom: 15px;
+  background: #7dc29c;
+}
+
+.card-footer a {
+  margin: 20px;
+  border: 0.5px solid rgb(108, 55, 179);
+  border-radius: 5px;
+  padding: 7px 10px;
+  text-decoration: none;
+  color: #111;
+  background: transparent;
+  transition: 0.5s;
+  transform: translate(0, -65%);
+}
+
+.card-footer a:nth-child(1)
+{
+  float: left;
+}
+
+.card-footer a:nth-child(2) {
+  float: right;
+}
+
+.card-footer a:hover {
+  color: #fff;
+  background: rgb(108, 55, 179);
+}
